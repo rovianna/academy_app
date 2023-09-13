@@ -9,11 +9,29 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var logoImageView: UIImageView!
+
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    
+    @IBAction func didForgotPasswordButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapLogin(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapSignUp(_ sender: UIButton) {
+    }
+    
+    
 
 }
 
